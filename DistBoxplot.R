@@ -20,7 +20,6 @@ setwd('./')
 
 ## parsing arguments
 args <- commandArgs(trailingOnly=TRUE)
-args <- commandArgs(trailingOnly=TRUE)
 sourcedir <- Sys.getenv("PM_Rscript")
 source(sprintf('%s/util.R',sourcedir))
 

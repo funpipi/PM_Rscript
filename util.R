@@ -1,5 +1,5 @@
 #-------------------------------
-# R funtions for TaxaSummary analysis.
+# R funtions for microbiome analysis.
 #-------------------------------
 # Last update: 20170115, HuangShi
 

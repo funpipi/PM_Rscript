@@ -9,7 +9,7 @@
 p <- c("optparse","reshape2","ggplot2","RColorBrewer")
 usePackage <- function(p) {
   if (!is.element(p, installed.packages()[,1]))
-    install.packages(p, dep=TRUE, repos="http://mirrors.opencas.cn/cran/")
+    install.packages(p, dep=TRUE, repos="http://cran.us.r-project.org/")
   suppressWarnings(suppressMessages(invisible(require(p, character.only=TRUE))))
 }
 invisible(lapply(p, usePackage))
