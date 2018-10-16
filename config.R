@@ -2,8 +2,7 @@
 # Function: Configurate the R packages for Parallel-META
 # Call: Rscript RM_Config.R
 # Authors: Xiaoquan Su
-# Last update: 2017-11-01, Xiaoquan Su
-# Bioinformatics Group, Single-Cell Research Center, QIBEBT, CAS
+# Last update: 2018-10-16, Shi Huang
 #################################################################
 
 ## install necessary libraries
@@ -18,8 +17,8 @@ invisible(lapply(p, usePackage))
 cat("**R Packages Configuration Complete**\n")
 
 #  check environment variables
-Env <-Sys.getenv("ParallelMETA")
+Env <-Sys.getenv("PM_Rscript")
 if(nchar(Env)<1){
-  cat('Please set the environment variable \"ParallelMETA\" to the directory\n')
+  cat('Please set the environment variable \"PM_Rscript\" to the directory\n')
  }
 
